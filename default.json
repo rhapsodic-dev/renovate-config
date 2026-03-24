@@ -1,0 +1,28 @@
+{
+  "extends": [
+    "config:recommended",
+    "group:allNonMajor",
+    ":maintainLockFilesWeekly",
+    ":semanticCommitTypeAll(chore)"
+  ],
+  "rangeStrategy": "bump",
+  "npm": {
+    "commitMessageTopic": "{{prettyDepType}} {{depName}}"
+  },
+  "schedule": [
+    "on Monday"
+  ],
+  "packageRules": [
+    {
+      "matchPackageNames": ["@rhapsodic/*"],
+      "schedule": ["* * * * *"]
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true,
+    "minimumReleaseAge": "0 days"
+  },
+  "postUpdateOptions": [
+    "pnpmDedupe"
+  ]
+}

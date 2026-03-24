@@ -1,0 +1,5 @@
+{
+  "extends": [
+    "github>rhapsodic-dev/renovate-config"
+  ]
+}

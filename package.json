@@ -1,0 +1,30 @@
+{
+  "name": "@rhapsodic/renovate-config",
+  "version": "0.1.0",
+  "description": "Rhapsodic preset for Renovate",
+  "license": "MIT",
+  "author": {
+    "name": "rhapsodic.dev",
+    "email": "rhapsodic.dev@gmail.com",
+    "url": "https://github.com/rhapsodic-dev"
+  },
+  "homepage": "https://github.com/rhapsodic-dev/renovate-config",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rhapsodic-dev/renovate-config.git"
+  },
+  "bugs": {
+    "url": "https://github.com/rhapsodic-dev/renovate-config/issues"
+  },
+  "scripts": {
+    "validate": "renovate-config-validator default.json",
+    "test": "npm run validate",
+    "release": "bumpp",
+    "prepare": "npm run test"
+  },
+  "devDependencies": {
+    "bumpp": "^11.0.1",
+    "renovate": "latest"
+  },
+  "packageManager": "pnpm@10.32.1+sha512.a706938f0e89ac1456b6563eab4edf1d1faf3368d1191fc5c59790e96dc918e4456ab2e67d613de1043d2e8c81f87303e6b40d4ffeca9df15ef1ad567348f2be"
+}
