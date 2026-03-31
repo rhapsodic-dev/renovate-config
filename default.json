@@ -6,6 +6,7 @@
     ":semanticCommitTypeAll(chore)"
   ],
   "rangeStrategy": "bump",
+  "minimumReleaseAge": "14 days",
   "npm": {
     "commitMessageTopic": "{{prettyDepType}} {{depName}}"
   },
@@ -17,6 +18,7 @@
       "groupName": "rhapsodic packages",
       "groupSlug": "rhapsodic",
       "matchPackageNames": ["@rhapsodic/*"],
+      "minimumReleaseAge": "0 days",
       "schedule": ["* * * * *"]
     }
   ],
