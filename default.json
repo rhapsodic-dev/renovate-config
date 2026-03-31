@@ -20,6 +20,10 @@
       "matchPackageNames": ["@rhapsodic/*"],
       "minimumReleaseAge": "0 days",
       "schedule": ["* * * * *"]
+    },
+    {
+      "matchPackageNames": ["nuxt"],
+      "minimumReleaseAge": "0 days"
     }
   ],
   "vulnerabilityAlerts": {
