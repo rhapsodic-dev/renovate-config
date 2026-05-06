@@ -16,7 +16,7 @@
     {
       "groupName": "rhapsodic packages",
       "groupSlug": "rhapsodic",
-      "matchPackageNames": ["@rhapsodic/*"],
+      "matchPackageNames": ["@rhapsodic/*", "rhapsodic/*"],
       "minimumReleaseAge": "0 days",
       "schedule": ["* * * * *"]
     },
