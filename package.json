@@ -1,6 +1,6 @@
 {
   "name": "@rhapsodic/renovate-config",
-  "version": "0.4.0",
+  "version": "0.4.1",
   "description": "Rhapsodic preset for Renovate",
   "license": "MIT",
   "author": {
