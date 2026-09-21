@@ -16,13 +16,26 @@
     {
       "groupName": "rhapsodic packages",
       "groupSlug": "rhapsodic",
-      "matchPackageNames": ["@rhapsodic/*", "rhapsodic/*"],
+      "matchPackageNames": [
+        "@rhapsodic/*",
+        "rhapsodic/*"
+      ],
       "minimumReleaseAge": "0 days",
       "schedule": ["* * * * *"]
     },
     {
       "matchPackageNames": ["nuxt"],
       "minimumReleaseAge": "0 days"
+    },
+    {
+      "groupName": "pnpm",
+      "groupSlug": "pnpm",
+      "matchDepTypes": [
+        "packageManager"
+      ],
+      "matchPackageNames": [
+        "pnpm"
+      ]
     }
   ],
   "vulnerabilityAlerts": {
